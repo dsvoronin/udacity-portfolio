@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         apps.add(new App("LIBRARY APP", new ToastAction(this, "This button will launch my library app!")));
         apps.add(new App("BUILD IT BIGGER", new ToastAction(this, "This button will launch my build it bigger app!")));
         apps.add(new App("XYZ READER", new ToastAction(this, "This button will launch my xyz reader app!")));
-        apps.add(new App("CAPSTONE: MY OWN APP", new ToastAction(this, "This button will launch my capstone app!")));
+        apps.add(new App("CAPSTONE: MY OWN APP", new ToastAction(this, "This button will launch my capstone app!"), true));
 
         AppButtonsFactory factory = new AppButtonsFactory(this);
 
